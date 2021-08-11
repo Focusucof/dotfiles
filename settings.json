@@ -1,0 +1,43 @@
+{
+    "editor.hover.enabled": false,
+    "editor.rename.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "editor.fontFamily": "Hack, Consolas",
+    "editor.largeFileOptimizations": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "debug.onTaskErrors": "debugAnyway",
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.enabled": false,
+    "glassit.alpha": 225,
+    "editor.fontLigatures": true,
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu-20.04 (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu-20.04"
+            ],
+            "icon": "terminal-bash"
+        }
+    },
+    "workbench.colorTheme": "Dark Horizon",
+}
